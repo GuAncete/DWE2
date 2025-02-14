@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Rubik+Wet+Paint&display=swap');
+
+     * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu {
+        background-color: cadetblue;
+        
+    }
+
+    .menu__itens li, ul{
+        padding: 4vh;
+    }
+
+    .menu__itens {
+        display: flex;
+        text-decoration: none;
+        list-style: none;
+        flex-direction: row;
+        gap: 2vh;
+        justify-content: end;
+    }
+    
+    .menu__itens a{
+        padding: 4vh;
+        text-decoration: none;
+        color: black;
+        font-size: 2.5vh;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .menu__itens a:hover{
+        background-size: 10vh;
+        background-color: antiquewhite;
+    }
+
+    .conteudo__tabela {
+        margin: 5vh;
+        
+    }
+
+    .conteudo h1{
+        margin: 5vh;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div class="menu">
+        <ul class="menu__itens">
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="busca.html">Busca</a>
+            </li>
+            <li>
+                <a href="tabela.html">Formulário/Tabela</a>
+            </li>
+            <li>
+                <a href="artigo.html">Postagem c/ Imagem</a>
+            </li>
+        </ul>
+    </div>
+    <div class="conteudo">
+        <h1>Formulário de cadastro e Tabela com dados</h1>
+        <div class="conteudo__tabela">
+            <div class="row">
+                <div class="col-5">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                            aria-describedby="basic-addon1">
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Recipient's username"
+                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2">@example.com</span>
+                    </div>
+
+                    <label for="basic-url" class="form-label">Your vanity URL</label>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">$</span>
+                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                        <span class="input-group-text">.00</span>
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                        <span class="input-group-text">@</span>
+                        <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+                    </div>
+
+                    <div class="input-group">
+                        <span class="input-group-text">With textarea</span>
+                        <textarea class="form-control" aria-label="With textarea"></textarea>
+                    </div>
+                </div>
+
+                <div class="col-7">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td colspan="2">Larry the Bird</td>
+                                <td>@twitter</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

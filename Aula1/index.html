@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula1</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Rubik+Wet+Paint&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu {
+        background-color: cadetblue;
+        padding: 4vh;
+        
+    }
+
+    .menu__itens {
+        display: flex;
+        text-decoration: none;
+        list-style: none;
+        flex-direction: row;
+        gap: 2vh;
+        justify-content: end;
+    }
+    
+    .menu__itens a{
+        padding: 4vh;
+        text-decoration: none;
+        color: black;
+        font-size: 2.5vh;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .menu__itens a:hover{
+        background-size: 10vh;
+        background-color: antiquewhite;
+    }
+
+    h1,
+    h2 {
+        font-family: "Bebas Neue", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    h1{
+        font-size: 10vh;
+    }
+    h2{
+        font-size: 5vh;
+    }
+
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10vh;
+    }
+
+    .conteudo__titulo {
+        padding-bottom: 5vh;
+    }
+
+    .conteudo__titulo span {
+        background-color: yellow;
+    }
+
+</style>
+
+<body>
+    <div class="menu">
+        <ul class="menu__itens">
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="busca.html">Busca</a>
+            </li>
+            <li>
+                <a href="tabela.html">Formulário/Tabela</a>
+            </li>
+            <li>
+                <a href="artigo.html">Postagem c/ Imagem</a>
+            </li>
+        </ul>
+    </div>
+    <div class="conteudo">
+        <h1 class="conteudo__titulo">Desenvolvimento Web II - <span>VTPDWE2</span></h1>
+        <h2>Aula 1 - Relembrando HTML e CSS</h2>
+    </div>
+</body>
+
+</html>
