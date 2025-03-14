@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+h1 {
+  font-size: 50px;
+  display: flex;
+  margin: 20px;
+}
+
+hr {
+  margin: 20px;
+}
+
+.form-nome {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.form-nome input {
+  width: 940px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.form-group {
+  display: flex;
+  gap: 20px;
+  margin: 20px;
+}
+.form-group .form-tel,
+.form-group .form-email {
+  display: flex;
+  flex-direction: column;
+}
+.form-group .form-tel input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+.form-group .form-email {
+  flex: 1;
+}
+.form-group .form-email input {
+  width: 100%;
+  max-width: 620px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.form-group2 {
+  display: flex;
+  gap: 20px;
+  margin: 20px;
+}
+.form-group2 .form-cpf {
+  display: flex;
+  flex-direction: column;
+}
+.form-group2 .form-cpf input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+.form-group2 .form-date {
+  display: flex;
+  flex-direction: column;
+}
+.form-group2 .form-date input {
+  width: 300px;
+  padding: 9px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+.form-group2 .form-cep {
+  display: flex;
+  flex-direction: column;
+}
+.form-group2 input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.form-group3 {
+  display: flex;
+  gap: 20px;
+  margin: 20px;
+}
+.form-group3 .form-end {
+  display: flex;
+  flex-direction: column;
+}
+.form-group3 input {
+  width: 620px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+.form-group3 .form-estado {
+  display: flex;
+  flex-direction: column;
+}
+.form-group3 .form-estado select {
+  width: 300px;
+  padding: 9.3px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.form-group4 {
+  display: flex;
+  gap: 20px;
+  margin: 20px;
+}
+.form-group4 .form-perfil {
+  display: flex;
+  flex-direction: column;
+}
+.form-group4 .form-perfil input::file-selector-button {
+  border: 1px solid #ced4da;
+  padding: 0.5;
+}
+.form-group4 .form-perfil input::file-selector-button {
+  padding: 0.9em;
+  margin: 0.1px;
+  margin-right: 2px;
+  color: gr;
+}
+.form-group4 .form-perfil input[type=file] {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+.form-group4 .form-contrato {
+  display: flex;
+  flex-direction: column;
+}
+.form-group4 .form-contrato input::file-selector-button {
+  border: 1px solid #ced4da;
+  padding: 0.5;
+}
+.form-group4 .form-contrato input::file-selector-button {
+  padding: 0.9em;
+  margin: 0.1px;
+  margin-right: 2px;
+  color: gr;
+}
+.form-group4 .form-contrato input[type=file] {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.form-group5 {
+  gap: 20px;
+  margin: 20px;
+}
+
+.buttonC,
+.buttonL {
+  width: 90px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.buttonC {
+  background-color: #007bff;
+  color: black;
+}
+.buttonC:hover {
+  background-color: purple;
+  color: white;
+}
+
+.buttonL {
+  background-color: #ffc107;
+  color: black;
+}
+.buttonL:hover {
+  background-color: purple;
+  color: white;
+}/*# sourceMappingURL=index.css.map */

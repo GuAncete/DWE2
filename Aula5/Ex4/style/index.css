@@ -1,0 +1,57 @@
+.container {
+  padding: 20px;
+}
+.container input {
+  width: 75px;
+  height: 30px;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+
+.container2 {
+  padding: 20px;
+}
+.container2 input {
+  width: 75px;
+  height: 30px;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+
+.container3 {
+  padding: 20px;
+}
+.container3 input {
+  width: 75px;
+  height: 30px;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+
+.botaoC,
+.botaoL {
+  border-radius: 5px;
+  border: none;
+}
+
+.botaoC {
+  background-color: #007bff;
+  color: white;
+  width: 120px;
+  height: 40px;
+}
+.botaoC:hover {
+  background-color: purple;
+  color: white;
+}
+
+.botaoL {
+  background-color: #ffc107;
+  color: black;
+  width: 120px;
+  height: 40px;
+}
+.botaoL:hover {
+  background-color: purple;
+  color: white;
+}/*# sourceMappingURL=index.css.map */

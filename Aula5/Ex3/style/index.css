@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.form-group, .form-titulo, .form-corTexto, .form-urlImagem, .form-urlLink, .form-corFundo, .form-corpo {
+  display: flex;
+  align-items: center;
+  margin: 10px auto;
+  width: 90%;
+  max-width: 600px;
+}
+
+.form-group label,
+.form-titulo label,
+.form-corTexto label,
+.form-urlImagem label,
+.form-urlLink label,
+.form-corFundo label,
+.form-corpo label {
+  margin-right: 5px;
+  width: 35%;
+  text-align: right;
+}
+
+.form-corpo, .form-titulo, .form-corTexto, .form-urlImagem, .form-urlLink, .form-corFundo {
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+textarea,
+.form-titulo input[type=text],
+.form-corTexto input[type=color],
+.form-urlImagem input[type=text],
+.form-urlLink input[type=text],
+.form-corFundo input[type=color] {
+  width: 440px;
+  height: 40px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 240px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button[type=submit] {
+  background-color: #007bff;
+  color: white;
+}
+
+button[type=reset] {
+  background-color: #ffc107;
+  color: black;
+}/*# sourceMappingURL=index.css.map */

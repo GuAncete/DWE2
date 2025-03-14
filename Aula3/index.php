@@ -9,11 +9,16 @@
 
 <body>
     <?php
+    date_default_timezone_set('America/Sao_Paulo');
+    $data = date('d/m/y');
+    $hora = date('H:i:s');
+    $nome = 'Gustavo';
     echo "<h1>My Firt  PHP page</h1>";
     echo "<p>Hello World!</p>";
-    echo "<br><p>Olá, meu nome é <strong>Eder<strong>, Hoje é dia <strong>19/02/2025<strong> e agora são <strong>09:26<strong></p>";
+    echo "<p>Olá, meu nome é <b>$nome</b>, Hoje é dia <b>$data</b> e agora são <b>$hora</b></p>";
+    echo "<hr>";
+    echo "<a href='../gustavo.php'>gustavo/</a>"
     ?>
-
 </body>
 
 </html>
