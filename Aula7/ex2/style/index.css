@@ -1,0 +1,12 @@
+.imagemColor {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagemColor img {
+  width: 400px;
+  border: 2px solid #000;
+  border-radius: 15px;
+  margin: 20px;
+}/*# sourceMappingURL=index.css.map */
